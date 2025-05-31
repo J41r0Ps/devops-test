@@ -1,0 +1,9 @@
+name : Display hostname
+
+on : push
+jobs:
+    display-hostaname:
+        runs-on: ubunutu-latest
+        steps:
+            - name: Run hostname command
+              run: hostname
